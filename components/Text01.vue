@@ -17,9 +17,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .text01 {
         max-width: 800px;
         margin: 0 auto;
+    }
+    .container {
+      max-width: 960px;
     }
 </style>

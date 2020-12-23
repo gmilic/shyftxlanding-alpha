@@ -99,7 +99,7 @@ export default {
   .appFooter {
     background-color: #121212;
     background-image: url('/img/bg-footer.png');
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 650px;
     background-size: cover;

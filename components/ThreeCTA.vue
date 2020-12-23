@@ -108,8 +108,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped> 
     .cardSubtitle {
         min-height: 80px;
+    }
+    .container {
+        max-width: 960px;
     }
 </style>

@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     h4 {
         max-width: 600px;
         margin: 0 auto;
@@ -38,5 +38,8 @@ export default {
         background-repeat: no-repeat;
         background-position: center right;
         background-size: contain;
+    }
+    .container {
+    max-width: 960px;
     }
 </style>

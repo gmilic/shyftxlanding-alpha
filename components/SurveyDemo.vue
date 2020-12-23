@@ -204,6 +204,7 @@ export default {
     font-size: 12px;
     line-height: 1.2;
     margin: 0;
+    color: #000;
   }
   .fade-enter-active, .fade-leave-active {
     transition: opacity .3s;

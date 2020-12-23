@@ -19,8 +19,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     p {
         max-width: 800px;
+    }
+    .container {
+        max-width: 960px;
     }
 </style>
