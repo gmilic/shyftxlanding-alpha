@@ -2,10 +2,10 @@
   <section>
     <AppHero></AppHero>
     <ThreeCTA></ThreeCTA>
-    <Text-01></Text-01>
-    <Laptop-01></Laptop-01>
-    <Square-left-01></Square-left-01>
-    <Square-right-01></Square-right-01>
+    <Text01></Text01>
+    <Laptop01></Laptop01>
+    <SquareLeft01></SquareLeft01>
+    <SquareRight01></SquareRight01>
     <SurveyDemoTitle></SurveyDemoTitle>
     <SurveyDemo></SurveyDemo>
     <StartBusinessJourney></StartBusinessJourney>
