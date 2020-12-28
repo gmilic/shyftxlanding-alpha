@@ -4,6 +4,7 @@
       absolute
       color="rgba(18, 33, 32, 0.64)"
       elevate-on-scroll
+      style="position:fixed"
     >
       <v-img
         class="mx-2"

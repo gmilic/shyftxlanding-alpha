@@ -15,7 +15,7 @@
                 <v-btn
                     elevation="2"
                     outlined
-                    dark
+                    
                 >REQUEST DEMO</v-btn>
             </v-col>
         </v-row>

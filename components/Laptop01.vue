@@ -12,8 +12,12 @@
 </template>
 
 <script>
+
 export default {
-    name:"Laptop01"
+    name:"Laptop01",
+    mounted() {
+
+    }
 }
 </script>
 

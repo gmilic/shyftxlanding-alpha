@@ -102,8 +102,13 @@
 </template>
 
 <script>
+
+
 export default {
-    name: "ThreeCTA"
+    name: "ThreeCTA",
+    mounted() {
+
+    }
 
 }
 </script>
