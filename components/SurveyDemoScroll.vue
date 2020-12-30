@@ -47,10 +47,10 @@ export default {
   name: 'SurveyDemoScroll',
   data: function () {
     return {
-      animPosition: undefined,
-      animHeight: undefined
+      animPosition: 0,
+      animHeight: 0
     }
-  },
+  },  
   methods: {
     calcPosOfBox () {
       // this.animPosition = this.$refs['demoScroll'].getBoundingClientRect().top;
@@ -64,23 +64,36 @@ export default {
       scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    },
+    onScroll() {
+      let tempAnimPosition = this.offset(this.$refs['demoScroll']);
+      if (this.animPosition.top != tempAnimPosition.top) {
+        this.animPosition = this.offset(this.$refs['demoScroll']);
+      }
     }
   },
   computed: {
 
   },
-  mounted() {
-    
-    if (process.client) {
-      gsap.registerPlugin(ScrollTrigger);
+  watch: {
+    animPosition() {
+      console.log('pos changed');
       ScrollTrigger.refresh(true);
+    }
+  },
+  mounted() {
+      this.animHeight = this.animPosition + this.$refs['demoScroll'].offsetHeight;
+      window.addEventListener('scroll', this.onScroll);
+
+      gsap.registerPlugin(ScrollTrigger);
       
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: ".demoScroll",
           scrub: true,
           pin: ".animWrapper",
-          start: "top top",
+          start: "top 64px",
+          end: "+=" + (this.animHeight * 2),
           // end: this.animHeight,
           // end: "bottom bottom",
           // toggleActions: "restart reverse restart reverse",
@@ -147,12 +160,7 @@ export default {
           ease: "power4.out"
         })
 
-        setTimeout(() => {
-          ScrollTrigger.refresh(true);
-          
-        }, 3000)
 
-      }
   },
   beforeDestroyed() {
     let triggers = ScrollTrigger.getAll();

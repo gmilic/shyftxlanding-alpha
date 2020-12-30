@@ -14,8 +14,17 @@
 </template>
 
 <script>
-export default {
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+export default {
+    name: "DemoTitle",
+        mounted() {
+            if (process.client) {
+            gsap.registerPlugin(ScrollTrigger);
+            ScrollTrigger.refresh(true);
+            }
+        }
 }
 </script>
 

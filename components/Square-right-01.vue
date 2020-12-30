@@ -26,8 +26,17 @@
 </template>
 
 <script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 export default {
-    name: "Square-right-01"
+    name: "Square-right-01",
+    mounted() {
+        if (process.client) {
+        gsap.registerPlugin(ScrollTrigger);
+        ScrollTrigger.refresh(true);
+        }
+    }
 }
 </script>
 
