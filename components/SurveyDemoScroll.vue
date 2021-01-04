@@ -3,7 +3,7 @@
   <div class="animWrapper">
     <div class="phoneContainer" ref="phoneContainerStyles">
       <img class="phone" src="img/ShyftX_hand.png" alt="phone" />
-      <h4 class="pleaseScroll" >Please scroll</h4>
+      <!-- <h4 class="pleaseScroll" >Please scroll</h4> -->
     </div>
     <transition name="fade">
       <div class="chairData overlayData" >
@@ -108,7 +108,7 @@ export default {
       })
 
       tl
-        .fromTo('.pleaseScroll', {
+        .fromTo('.tvData', {
           opacity: 1
         },
         {
@@ -149,17 +149,6 @@ export default {
           opacity: 0,
           ease: "power4.in"
         })
-        .to('.phoneContainer', {
-          x: "3vw", 
-        })
-        .fromTo('.tvData', {
-          opacity: 0
-        },
-        {
-          opacity: 1,
-          ease: "power4.out"
-        })
-
 
   },
   beforeDestroyed() {
