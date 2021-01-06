@@ -5,6 +5,7 @@
     <Text01></Text01>
     <BookMoreMovesTruck></BookMoreMovesTruck>
     <Laptop01></Laptop01>
+    <Testimonials></Testimonials>
     <SquareLeft01></SquareLeft01>
     <SquareRight01></SquareRight01>
     <SurveyDemoTitle></SurveyDemoTitle>
@@ -29,6 +30,7 @@ import SurveyDemo from '~/components/SurveyDemo.vue'
 import SurveyDemoScroll from '~/components/SurveyDemoScroll.vue'
 import StartBusinessJourney from '~/components/StartBusinessJourney.vue'
 import BlogList from '~/components/BlogList.vue'
+import Testimonials from '~/components/Testimonials.vue'
 
 
 export default {
