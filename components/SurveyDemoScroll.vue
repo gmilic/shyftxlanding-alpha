@@ -1,5 +1,5 @@
 <template>
-<div class="demoScroll" ref="demoScroll">
+<div class="demoScroll mb-16" ref="demoScroll">
   <div class="animWrapper">
     <div class="phoneContainer" ref="phoneContainerStyles">
       <img class="phone" src="img/ShyftX_hand.png" alt="phone" />
@@ -103,7 +103,7 @@ export default {
           //   delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
           //   ease: "power1.inOut" // the ease of the snap animation ("power3" by default)
           // },
-          markers: true,
+          // markers: true,
         }
       })
 

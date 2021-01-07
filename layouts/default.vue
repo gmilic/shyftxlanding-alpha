@@ -23,14 +23,6 @@
           dark
           elevation="0"
         >
-        What we do
-        </v-btn>
-        <v-btn
-          href="#"
-          color="transparent"
-          dark
-          elevation="0"
-        >
         How it works
         </v-btn>        <v-btn
           href="#"
@@ -61,7 +53,7 @@
         <v-btn
           class="mx-4 hidden-sm-and-down"
           href="#"
-          color="#4A81C1"
+          color="#EB344A"
           dark
         >
           Get A Free Demo

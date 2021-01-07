@@ -1,37 +1,34 @@
 <template>
     <v-container
         fluid
-        class="ma-0 pa-0"
-
+        class="my-16 pa-0 appHeroBg"
     >
-            <v-parallax
-                dark
-                src="/img/heroImage.jpg"
-                height=1000
-                
-            >
-                <v-row
-                align="center"
-                justify="center"
-                >
+
+            <v-row>
                 <v-col
-                    class="text-center"
-                    cols="12"
+                    cols="5"
+                    class="pl-14"
                 >
-                    <h1 class="text-h1 font-weight-bold mb-4">
-                    Always Drive Loaded
+                    <h1
+                        class="text-h5 my-6"
+                    >THE ONLINE MARKETPLACE FOR MOVERS</h1>
+                    <h1
+                        class="appHeroMainText"
+                    >BOOK MOVES
                     </h1>
-                    <h4 class="text-h4 heroSubheading mb-6">
-                        Market leader in tools for technology for moving companies to provide estimates, collect payments and get leads.                    
-                    </h4>
-                    <v-btn
-                    elevation="3"
-                    x-large
-                    light
-                    >Get A Free Demo</v-btn>
+                    <div
+                        class="mainButtonSignUp"
+                    >Sign Up For Free
+                    </div>
                 </v-col>
-                </v-row>
-            </v-parallax>
+                <!-- <v-col
+                    cols="7"
+                >
+                    <v-img
+                        src="/img/truckWhiteHero.jpg"
+                    ></v-img>
+                </v-col> -->
+            </v-row>
     </v-container>
 </template>
 <script>
@@ -41,9 +38,16 @@ export default {
 </script>
 
 <style scoped>
-.heroSubheading {
-    max-width: 800px;
-    margin: 0 auto;
+.appHeroBg {
+    background-image: url('/img/truckWhiteHero.jpg');
+    background-repeat: no-repeat;
+    background-position: 50vw center;
+    background-size: contain;
+}
+
+.appHeroMainText {
+    font-size: 12vw;
+    line-height: .8;
 }
 
 </style>
