@@ -6,6 +6,7 @@
     <HowShyftWorks></HowShyftWorks>
     <SurveyDemoTitle></SurveyDemoTitle>
     <SurveyDemoScroll></SurveyDemoScroll>
+    <GrowWithShyftx></GrowWithShyftx>
     <Testimonials></Testimonials>
     <SquareLeft01></SquareLeft01>
     <SquareRight01></SquareRight01>
@@ -21,6 +22,7 @@ import AppHero from '~/components/AppHero'
 import SecondRow from '~/components/SecondRow'
 import TabletBids from '~/components/TabletBids'
 import HowShyftWorks from '~/components/HowShyftWorks'
+import GrowWithShyftx from '~/components/GrowWithShyftx'
 import SquareLeft01 from '~/components/Square-left-01.vue'
 import SquareRight01 from '~/components/Square-right-01.vue'
 import SurveyDemoTitle from '~/components/SurveyDemoTitle.vue'
@@ -37,6 +39,7 @@ export default {
     SecondRow,
     TabletBids,
     HowShyftWorks,
+    GrowWithShyftx,
     SquareLeft01,
     SquareRight01,
     SurveyDemoTitle,

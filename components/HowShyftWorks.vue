@@ -10,7 +10,7 @@
                 <h3
                     class="howShyftxWordTitle"
                 >
-                    How ShyftX Works for You
+                    How ShyftX <br />Works for You
                 </h3>
               </v-col>
           </v-row>

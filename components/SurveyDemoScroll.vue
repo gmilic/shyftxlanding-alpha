@@ -226,7 +226,7 @@ export default {
     left: 65vw;
   }
   .overlayData {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
     opacity: 0
   }
   .overlayDataTitle {
