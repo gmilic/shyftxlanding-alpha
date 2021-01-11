@@ -19,7 +19,7 @@
                 :slidesToScroll=1
                 :autoplay=true
             >
-                <a href="https://www.tsishipping.com/"><v-img src=".img/GrowLogo01.png"></v-img></a>
+                <a href="https://www.tsishipping.com/"><v-img src="img/GrowLogo01.png"></v-img></a>
                 <a href="https://www.roadwaymoving.com/"><v-img src="/img/GrowLogo02.png"></v-img></a>
                 <a href="https://capitolnorthamerican.com/"><v-img src="/img/GrowLogo03.png"></v-img></a>
                 <a href="https://movage-moving.com/"><v-img src="/img/GrowLogo04.png"></v-img></a>
