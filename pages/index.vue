@@ -10,6 +10,7 @@
     <Testimonials></Testimonials>
     <BlogList></BlogList>
     <IndustryPress></IndustryPress>
+    <GetInTouch></GetInTouch>
   </section>
 </template>
 
@@ -24,6 +25,7 @@ import SurveyDemoScroll from '~/components/SurveyDemoScroll.vue'
 import BlogList from '~/components/BlogList.vue'
 import IndustryPress from '~/components/IndustryPress.vue'
 import Testimonials from '~/components/Testimonials.vue'
+import GetInTouch from '~/components/GetInTouch.vue'
 
 
 export default {
@@ -36,7 +38,8 @@ export default {
     SurveyDemoTitle,
     SurveyDemoScroll,
     BlogList,
-    IndustryPress
+    IndustryPress,
+    GetInTouch
 
   }
 }

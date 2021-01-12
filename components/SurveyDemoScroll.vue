@@ -56,7 +56,7 @@ export default {
       // this.animPosition = this.$refs['demoScroll'].getBoundingClientRect().top;
       this.animPosition = this.offset(this.$refs['demoScroll']);
       // this.animHeight = this.animPosition + this.$refs['demoScroll'].offsetHeight;
-      console.log(this.animPosition.top);
+      // console.log(this.animPosition.top);
       // console.log(this.animHeight);
     },
     offset(el) {
