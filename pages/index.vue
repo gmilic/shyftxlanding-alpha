@@ -1,16 +1,16 @@
 <template>
   <section>
-    <AppHero></AppHero>
-    <SecondRow></SecondRow>
-    <TabletBids></TabletBids>
-    <HowShyftWorks></HowShyftWorks>
-    <SurveyDemoTitle></SurveyDemoTitle>
-    <SurveyDemoScroll></SurveyDemoScroll>
-    <GrowWithShyftx></GrowWithShyftx>
-    <Testimonials></Testimonials>
-    <BlogList></BlogList>
-    <IndustryPress></IndustryPress>
-    <GetInTouch></GetInTouch>
+    <AppHero />
+    <SecondRow />
+    <TabletBids />
+    <HowShyftWorks />
+    <SurveyDemoTitle />
+    <SurveyDemoScroll />
+    <GrowWithShyftx />
+    <Testimonials />
+    <BlogList />
+    <IndustryPress />
+    <GetInTouch />
   </section>
 </template>
 
