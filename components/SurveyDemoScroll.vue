@@ -10,7 +10,7 @@
         <div class="overlayDataTitle">Chair</div>
         <div class="overlayDataInfo">
           <p>Total weight: 55.0</p>
-          <p>Dimensions: 32” x 40” x 30</p>
+          <p>Dimensions: 32” x 40” x 30"</p>
           <p>Units: 1</p>
         </div>
       </div>
@@ -19,8 +19,8 @@
       <div class="tvData overlayData">
         <div class="overlayDataTitle">TV</div>
         <div class="overlayDataInfo">
-          <p>Total weight: 55.0</p>
-          <p>Dimensions: 32” x 40” x 30</p>
+          <p>Total weight: 56.0</p>
+          <p>Dimensions: 58” x 32” x 3"</p>
           <p>Units: 1</p>
         </div>
       </div>
@@ -29,8 +29,8 @@
       <div class="sofaData overlayData">
         <div class="overlayDataTitle">Sofa</div>
         <div class="overlayDataInfo">
-          <p>Total weight: 55.0</p>
-          <p>Dimensions: 32” x 40” x 30</p>
+          <p>Total weight: 350.0</p>
+          <p>Dimensions: 35” x 112” x 76"</p>
           <p>Units: 1</p>
         </div>
       </div>

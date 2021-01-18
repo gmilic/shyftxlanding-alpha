@@ -1,5 +1,7 @@
 <template>
-  <v-container>
+  <v-container
+    class="tabletBidsWrapper"
+  >
       <v-row>
           <v-col
             cols=7
@@ -20,10 +22,15 @@
             <p>Our bidding platform lets you have instant access to thousands of moves with the opportunity to service our Fortune 500 corporate customers. Shipments are posted hourly and are powered by our top-notch technology that makes the bidding process quick and seamless.</p>
             <div
                 class="mainButtonSignUp"
-            >Sign Up For Free
+            >Sign Up Now
             </div>
           </v-col>
       </v-row>
+      <v-img
+        src="/img/testimonialsDots.svg"
+        width="150"
+        class="testimonialDots"
+      ></v-img>
   </v-container>
 </template>
 
@@ -33,8 +40,21 @@ export default {
 }
 </script>
 
-<style>
-    .tabletGif {
-        margin-top: -100px;
-    }
+<style scoped>
+  .tabletGif {
+      margin-top: -100px;
+      position: relative;
+      z-index: 9;
+      -webkit-box-shadow: -11px 11px 38px 5px rgba(114,114,114,0.6); 
+      box-shadow: -11px 11px 38px 5px rgba(114,114,114,0.6);
+      border-radius: 40px;
+  }
+  .testimonialDots {
+    position: absolute;
+    bottom: -48px;
+    left: 80px;
+  }
+  .tabletBidsWrapper {
+    position: relative;
+  }
 </style>

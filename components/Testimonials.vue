@@ -121,8 +121,10 @@ export default {
 <style scoped>
 .testimonialWrapper {
     background-color: #EEEEEC;
-    padding: 80px 0;
+    padding: 80px 0 120px 0;
     position: relative;
+    border-radius: 0 0 0 60px;
+
 }
 .testimonialWrapper p {
     max-width: 800px;
@@ -132,6 +134,7 @@ export default {
     position: absolute;
     bottom: -48px;
     left: 80px;
+    z-index: 1;
 }
 
 </style>

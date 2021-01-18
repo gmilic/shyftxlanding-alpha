@@ -1,12 +1,12 @@
 <template>
     <v-container
         fluid
-        class="my-16 pa-0 appHeroBg"
+        class="my-16 pa-0 appHeroWrapper justify-center"
     >
-
             <v-row>
                 <v-col
-                    cols="5"
+                    cols="12"
+                    md="5"
                     class="pl-14 appHeroMainTextWrapper"
                 >
                     <h1
@@ -14,7 +14,7 @@
                     >THE ONLINE MARKETPLACE FOR MOVERS</h1>
                     <h1
                         class="appHeroMainText appHeroMainText01"
-                    >BOOK MOVES
+                    >BOOK <br />MOVES
                     </h1>
                     <h1
                         class="appHeroMainText appHeroMainText02"
@@ -26,16 +26,9 @@
                     </h1>
                     <div
                         class="mainButtonSignUp"
-                    >Sign Up For Free
+                    >Sign Up Now
                     </div>
                 </v-col>
-                <!-- <v-col
-                    cols="7"
-                >
-                    <v-img
-                        src="/img/truckWhiteHero.jpg"
-                    ></v-img>
-                </v-col> -->
             </v-row>
     </v-container>
 </template>
@@ -97,7 +90,7 @@ export default {
 </script>
 
 <style scoped>
-.appHeroBg {
+.appHeroWrapper {
     background-image: url('/img/truckWhiteHero.jpg');
     background-repeat: no-repeat;
     background-position: 40vw center;
@@ -112,6 +105,8 @@ export default {
     font-family: 'Bebas Neue', 'Roboto', sans-serif;
     position: absolute;
 }
+
+
 .appHeroMainTextWrapper {
     position: relative;
     height: 30vw;
@@ -119,6 +114,29 @@ export default {
 .mainButtonSignUp {
     position: relative;
     top: 20vw;
+    padding: 16px 80px;
 }
 
+/* @media(max-width: 960px) {
+    .appHeroWrapper {
+        min-height: 60vh;
+        background-position: bottom center;
+        margin: 80px 0 !important;
+    }
+    .appHeroMainText {
+        font-size: 5em;
+        text-align: center;
+    }
+    .mainButtonSignUp {
+        top: 18vh;
+        margin: 0 auto;
+    }
+    .appHeroMainTextWrapper {
+        text-align: center;
+    }
+    .appHeroMainText {
+        left: 35%;
+        transform: translate(-50%);
+    }
+} */
 </style>

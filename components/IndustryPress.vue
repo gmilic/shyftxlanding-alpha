@@ -47,6 +47,11 @@
                 </v-col>
             </v-row>
         </v-container>
+        <v-img
+            src="/img/testimonialsDots.svg"
+            width="150"
+            class="testimonialDots"
+        ></v-img>
     </v-container>
 </template>
 
@@ -73,6 +78,12 @@ h1, h5 {
 .industryPressWrapper {
     background: rgb(150,150,150);
     background: linear-gradient(45deg, rgba(150,150,150,1) 0%, rgba(1,1,1,1) 50%, rgba(183,183,183,1) 100%);
+    position: relative;
+}
+.testimonialDots {
+    position: absolute;
+    bottom: -48px;
+    left: 80px;
 }
 
 </style>

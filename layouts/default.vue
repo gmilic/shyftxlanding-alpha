@@ -2,7 +2,7 @@
   <v-app dark>
     <v-app-bar
       absolute
-      color="rgba(18, 33, 32, 0.64)"
+      color="#222222"
       elevate-on-scroll
       style="position:fixed"
     >
@@ -14,9 +14,9 @@
         contain
       ></v-img>
 
-      <v-spacer></v-spacer>
+      
 
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items class="hidden-sm-and-down justify-start">
         <v-btn
           href="#"
           color="transparent"
@@ -41,9 +41,9 @@
         </v-btn>
       </v-toolbar-items>
 
-
+      <div class="toolbar-buttons">
         <v-btn
-          class="mx-4 hidden-sm-and-down"
+          class="mx-4 px-12 hidden-sm-and-down"
           href="#"
           outlined
           color="#fff"
@@ -51,14 +51,14 @@
           Log in
         </v-btn>
         <v-btn
-          class="mx-4 hidden-sm-and-down"
+          class="mx-4 px-12 hidden-sm-and-down"
           href="#"
           color="#EB344A"
           dark
         >
-          Get A Free Demo
+          Sign Up Now
         </v-btn>
-
+      </div>
 
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
@@ -182,5 +182,11 @@ export default {
   .footerCopyright {
     color: #C9C9C9;
     margin-top: 16px;
+  }
+  @media (min-width: 961px) {
+    .toolbar-buttons {
+      position: absolute;
+      right: 30px;
+    }
   }
 </style>

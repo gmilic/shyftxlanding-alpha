@@ -11,12 +11,13 @@
                 <v-row>
                     <v-col
                         cols=5
-                        class="d-flex flex-row-reverse"
+                        class="d-flex justify-end align-start"
                     >
                         <img
                             src="/img/secondRowIcon01.svg"
                             class="secondRowIcon"
-                            width="100%"
+                            
+                            width="130"
                         />
                     </v-col>
                     <v-col
@@ -40,12 +41,13 @@
                 <v-row>
                     <v-col
                         cols=5
-                        class="d-flex flex-row-reverse"
+                        class="d-flex justify-end align-start"
                     >
                         <img
                             src="/img/secondRowIcon02.svg"
                             class="secondRowIcon"
-                            width="100%"
+                            
+                            width="120"
                         />
                     </v-col>
                     <v-col
