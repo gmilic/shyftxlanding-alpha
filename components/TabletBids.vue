@@ -4,7 +4,8 @@
   >
       <v-row>
           <v-col
-            cols=7
+            cols=12
+            md=7
           >
             <v-img
                 lazy-src="img/bidsList.png"
@@ -13,11 +14,12 @@
             ></v-img>
           </v-col>
           <v-col
-            cols=5
+            cols=12
+            md=5
           >
             <h2
                 class="text-h4"
-            >Join hundreds of users and bid on thousands of shipments today
+            >Bid on thousands of moves instantly
             </h2>
             <p>Our bidding platform lets you have instant access to thousands of moves with the opportunity to service our Fortune 500 corporate customers. Shipments are posted hourly and are powered by our top-notch technology that makes the bidding process quick and seamless.</p>
             <div
@@ -56,5 +58,18 @@ export default {
   }
   .tabletBidsWrapper {
     position: relative;
+  }
+  @media(max-width:960px) {
+    .tabletGif {
+      margin-bottom: 80px;
+    }
+    .testimonialDots {
+      bottom: 35vh;
+      left: auto;
+      right: 50px;
+    }
+    .mainButtonSignUp {
+      margin: 0 auto;
+    }
   }
 </style>

@@ -15,7 +15,8 @@
             </v-row>
             <v-row>
                 <v-col
-                    cols="6"
+                    cols=12
+                    md=6
                 >
                     <v-img
                         src='/img/industryNewsDemo01.jpg'
@@ -27,7 +28,8 @@
                     >Tech Crunch: Corporate relocation startup Shyft raises $15M</h5>
                 </v-col>
                 <v-col
-                    cols="6"
+                    cols=12
+                    md=6
                 >
                     <v-img
                         src='/img/industryNewsDemo02.jpg'
@@ -41,6 +43,7 @@
             </v-row>
             <v-row>
                 <v-col
+                    cols=12
                     class="d-flex justify-end"
                 >
                     <a href="#">more articles +</a>

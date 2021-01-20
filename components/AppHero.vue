@@ -7,7 +7,7 @@
                 <v-col
                     cols="12"
                     md="5"
-                    class="pl-14 appHeroMainTextWrapper"
+                    class="pl-md-14 appHeroMainTextWrapper"
                 >
                     <h1
                         class="text-h5 my-6"
@@ -22,7 +22,7 @@
                     </h1>
                     <h1
                         class="appHeroMainText appHeroMainText03"
-                    >GET PAID <br />FAST
+                    >GET PAID<br />FAST
                     </h1>
                     <div
                         class="mainButtonSignUp"
@@ -106,7 +106,6 @@ export default {
     position: absolute;
 }
 
-
 .appHeroMainTextWrapper {
     position: relative;
     height: 30vw;
@@ -117,9 +116,9 @@ export default {
     padding: 16px 80px;
 }
 
-/* @media(max-width: 960px) {
+@media(max-width: 960px) {
     .appHeroWrapper {
-        min-height: 60vh;
+        min-height: 80vh;
         background-position: bottom center;
         margin: 80px 0 !important;
     }
@@ -135,8 +134,17 @@ export default {
         text-align: center;
     }
     .appHeroMainText {
-        left: 35%;
+        left: 50%;
         transform: translate(-50%);
     }
-} */
+}
+
+@media(max-width: 768px) {
+    .appHeroWrapper {
+        min-height: 70vh;
+    }
+    .mainButtonSignUp {
+        top: 24vh;
+    }
+}
 </style>

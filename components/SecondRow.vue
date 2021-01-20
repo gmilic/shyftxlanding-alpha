@@ -6,12 +6,16 @@
     <v-container>
         <v-row>
             <v-col
-                cols=6
+                cols=12
+                md=6
             >
-                <v-row>
+                <v-row
+                    class="firstRow"
+                >
                     <v-col
-                        cols=5
-                        class="d-flex justify-end align-start"
+                        cols=12
+                        md=5
+                        class="d-flex justify-md-end align-start"
                     >
                         <img
                             src="/img/secondRowIcon01.svg"
@@ -21,7 +25,8 @@
                         />
                     </v-col>
                     <v-col
-                        cols=7
+                        cols=12
+                        md=7
                     >
                         <h1
                             class="text-h4"
@@ -36,12 +41,14 @@
                 </v-row>
             </v-col>
             <v-col
-                cols=6
+                cols=12
+                md=6
             >
                 <v-row>
                     <v-col
-                        cols=5
-                        class="d-flex justify-end align-start"
+                        cols=12
+                        md=5
+                        class="d-flex justify-md-end align-start"
                     >
                         <img
                             src="/img/secondRowIcon02.svg"
@@ -51,7 +58,8 @@
                         />
                     </v-col>
                     <v-col
-                        cols=7
+                        cols=12
+                        md=7
                     >
                         <h1
                             class="text-h4"
@@ -83,6 +91,23 @@ export default {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 50px 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 50px 100%, 0 100%);
     min-height: 26vw;
+}
+@media (max-width:960px) {
+    .secondRowWrapper {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 50px 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 50px 100%, 0 100%);
+        padding-bottom: 140px!important;
+    }
+    .firstRow {
+        border-bottom: 2px solid #3B3B3B;
+        padding-bottom: 24px;
+    }
+}
+@media (max-width:960px) {
+    .secondRowWrapper {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 50px 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 50px 100%, 0 100%);
+    }
 }
 h1, h2 {
     color: #fff;

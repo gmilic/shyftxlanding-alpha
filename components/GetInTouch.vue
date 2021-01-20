@@ -5,7 +5,8 @@
   >
     <v-row>
         <v-col
-            cols=6
+            cols=12
+            md=6
         >
             <v-img
                 src="img/getInTouch.png"
@@ -13,7 +14,8 @@
             </v-img>
         </v-col>
         <v-col
-            cols=6
+            cols=12
+            md=6
         >
         <h3
             class="text-h3 my-16"

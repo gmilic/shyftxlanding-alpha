@@ -79,7 +79,8 @@
       <v-container>
         <v-row>
           <v-col
-            cols=3
+            cols=12
+            md=3
           >
             <v-img
               class="mx-2"
@@ -90,7 +91,8 @@
             ></v-img>
           </v-col>
           <v-col
-            cols=3
+            cols=12
+            md=3
           >
             <h5
               class="text-h6 mt-2"
@@ -101,7 +103,8 @@
             <a href="#" class="my-4">Blog</a>
           </v-col>
           <v-col
-            cols=3
+            cols=12
+            md=3
           >
             <h5
               class="text-h6 mt-2"
@@ -111,7 +114,8 @@
             <a href="#" class="my-4">Moving Pros</a>
           </v-col>
           <v-col
-            cols=3
+            cols=12
+            md=3
           >
             <h5
               class="text-h6 mt-2"

@@ -11,7 +11,8 @@
         </v-row>
         <v-row>
             <v-col
-                cols="6"
+                cols=12
+                md=6
             >
                 <v-img
                     src='/img/blogDemo01.jpg'
@@ -23,7 +24,8 @@
                 >Building a high-performance culture in your post-COVID-19 team</h5>
             </v-col>
             <v-col
-                cols="6"
+                cols=12
+                md=6
             >
                 <v-img
                     src='/img/blogDemo02.jpg'
@@ -37,6 +39,7 @@
         </v-row>
         <v-row>
             <v-col
+            cols=12
                 class="d-flex justify-end"
             >
                 <a href="#">more articles +</a>
